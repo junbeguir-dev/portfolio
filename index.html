@@ -3,126 +3,153 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Jun Beguir | Java, Cloud & AI Engineer</title>
+  <title>Arsenio Daza Beguir Jr. | Senior Java Software Engineer</title>
+  <meta name="description" content="Portfolio of Arsenio Daza Beguir Jr., Senior Java Software Engineer specializing in cloud-native systems, microservices, Oracle Cloud Infrastructure, and AI integration." />
   <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
   <header class="site-header">
     <nav class="navbar container">
-      <a class="brand" href="#home"><span class="logo">JB</span><span>Jun Beguir</span></a>
-      <input type="checkbox" id="menu-toggle" />
-      <label for="menu-toggle" class="menu-btn">☰</label>
+      <a href="#home" class="brand"><span class="brand-mark">JB</span><span>Arsenio Beguir Jr.</span></a>
       <div class="nav-links">
-        <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
         <a href="#experience">Experience</a>
-        <a href="#contact">Contact</a>
-        <a class="btn btn-outline" href="resume.pdf" download>Download CV</a>
+        <a href="#contact" class="btn btn-small">Contact</a>
       </div>
     </nav>
   </header>
 
-  <main id="home">
-    <section class="hero container">
-      <div class="hero-content">
-        <p class="badge">● Senior Java Software Engineer</p>
-        <h1>Building Scalable Solutions with <span>Java, Cloud & AI</span></h1>
-        <p class="lead">25+ years of experience designing and delivering enterprise applications using Java, Oracle technologies, Oracle Cloud Infrastructure, and AI-powered solutions.</p>
-        <div class="hero-actions">
-          <a class="btn btn-primary" href="#projects">View My Projects</a>
-          <a class="btn btn-outline" href="#contact">Contact Me</a>
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Senior Java Software Engineer • Cloud-Native Systems • AI Integration</p>
+          <h1>Building scalable enterprise solutions with <span>Java, OCI, Microservices & AI</span>.</h1>
+          <p class="hero-text">Senior-level software engineer with extensive experience delivering mission-critical systems across banking, manufacturing, utilities, and cloud environments.</p>
+          <div class="hero-actions">
+            <a class="btn" href="#projects">View Projects</a>
+            <a class="btn btn-outline" href="mailto:junbeguir@gmail.com">Email Me</a>
+          </div>
+          <div class="socials">
+            <a href="https://www.linkedin.com/in/junbeguir" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://github.com/junbeguir-dev" target="_blank" rel="noopener">GitHub</a>
+          </div>
         </div>
-        <div class="socials">
-          <a href="https://github.com/YOUR_USERNAME" target="_blank">GitHub</a>
-          <a href="https://www.linkedin.com/in/junbeguir" target="_blank">LinkedIn</a>
-          <a href="mailto:junbeguir@example.com">Email</a>
-        </div>
-      </div>
-      <div class="hero-visual">
-        <div class="portrait-card">
-          <div class="portrait-placeholder">JB</div>
-          <p>Java • OCI • AI</p>
+        <div class="hero-card">
+          <div class="profile-orb">JB</div>
+          <h2>Principal Application Engineer</h2>
+          <p>Oracle Philippines Corporation</p>
+          <ul>
+            <li>Java microservices and distributed systems</li>
+            <li>Oracle Cloud Infrastructure automation</li>
+            <li>DevOps visibility and metrics reporting</li>
+            <li>Mentoring, code reviews, Agile delivery</li>
+          </ul>
         </div>
       </div>
     </section>
 
-    <section id="skills" class="section container">
-      <h2>Core Skills</h2>
-      <div class="skills-grid">
-        <div class="skill-card">☕<strong>Java</strong><span>8, 11, 17, 21</span></div>
-        <div class="skill-card">🌱<strong>Spring Boot</strong><span>Microservices</span></div>
-        <div class="skill-card">🗄️<strong>Oracle DB</strong><span>SQL, PL/SQL</span></div>
-        <div class="skill-card">☁️<strong>Oracle Cloud</strong><span>OCI, OKE, ADB</span></div>
-        <div class="skill-card">🐳<strong>Docker</strong><span>Containers</span></div>
-        <div class="skill-card">⚙️<strong>Kubernetes</strong><span>Orchestration</span></div>
-        <div class="skill-card">🤖<strong>AI & ML</strong><span>OpenAI, LLMs</span></div>
-        <div class="skill-card">🛠️<strong>Tools</strong><span>Git, Jenkins, Linux</span></div>
+    <section id="about" class="section container">
+      <div class="section-heading">
+        <p class="eyebrow">About</p>
+        <h2>Enterprise software engineer focused on reliable cloud platforms.</h2>
       </div>
-    </section>
-
-    <section id="projects" class="section container two-column">
-      <div>
-        <div class="section-title-row">
-          <h2>Featured Projects</h2>
-          <a href="#contact">View all projects →</a>
-        </div>
-        <div class="projects-grid">
-          <article class="project-card">
-            <div class="project-image">HRIS</div>
-            <h3>HRIS System</h3>
-            <p>Human Resources Information System with payroll, leave, and benefits management built with Java and Spring Boot.</p>
-            <div class="tags"><span>Java</span><span>Spring Boot</span><span>Oracle DB</span></div>
-          </article>
-          <article class="project-card">
-            <div class="project-image">OCI</div>
-            <h3>OCI Automation Tool</h3>
-            <p>Automated provisioning and management of OCI resources using Java, OCI SDK, and Infrastructure as Code.</p>
-            <div class="tags"><span>Java</span><span>OCI SDK</span><span>Cloud</span></div>
-          </article>
-          <article class="project-card">
-            <div class="project-image">AI</div>
-            <h3>AI Content Generator</h3>
-            <p>AI-powered platform integrated with OpenAI API for text generation, summarization, and Q&A workflows.</p>
-            <div class="tags"><span>Java</span><span>OpenAI API</span><span>AI</span></div>
-          </article>
+      <div class="about-grid">
+        <p>I design, develop, and support high-availability enterprise applications using Java, Oracle technologies, and cloud-native engineering practices. My background includes leadership and hands-on delivery across SaaS automation, customer self-service platforms, banking applications, manufacturing systems, BI, and KPI visualization.</p>
+        <div class="quick-facts">
+          <span>📍 Philippines</span>
+          <span>📧 junbeguir@gmail.com</span>
+          <span>🔗 linkedin.com/in/junbeguir</span>
+          <span>🎓 BS Computer Science, PLM</span>
         </div>
       </div>
-
-      <aside id="about" class="about-card">
-        <h2>About Me</h2>
-        <p>I am a Senior Java Software Engineer with over 25 years of experience designing, developing, and deploying enterprise applications. I specialize in Java technologies, Oracle Cloud Infrastructure, automation, microservices, and AI integrations.</p>
-        <ul>
-          <li>📍 Bacoor, Cavite, Philippines</li>
-          <li>✉️ junbeguir@example.com</li>
-          <li>💼 Open to opportunities in New Zealand</li>
-        </ul>
-        <a class="btn btn-outline full" href="resume.pdf" download>Download CV</a>
-      </aside>
     </section>
 
-    <section id="experience" class="section container">
-      <h2>Experience Highlights</h2>
-      <div class="timeline">
-        <div class="timeline-item"><strong>Senior Java / Cloud Engineer</strong><p>Enterprise systems, microservices, Oracle DB, OCI automation, and production support.</p></div>
-        <div class="timeline-item"><strong>Technical Lead Experience</strong><p>Architecture reviews, mentoring, CI/CD, cloud-native deployment, and integration design.</p></div>
-        <div class="timeline-item"><strong>AI Engineering</strong><p>AI-assisted workflows, API integration, automation tools, and content generation systems.</p></div>
+    <section id="skills" class="section section-soft">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Core Expertise</p>
+          <h2>Technology strengths</h2>
+        </div>
+        <div class="skills-grid">
+          <article><h3>Backend & Architecture</h3><p>Java, Microservices, REST APIs, gRPC, distributed systems, scalable architecture.</p></article>
+          <article><h3>Cloud & DevOps</h3><p>Oracle Cloud Infrastructure, Docker, Kubernetes, Git, Jenkins, GitLab CI/CD.</p></article>
+          <article><h3>Database</h3><p>Oracle DB, PL/SQL, MySQL, MS SQL, analytics, reporting, KPI visualization.</p></article>
+          <article><h3>AI & Automation</h3><p>AI integration with VS Code, Codex CLI, Cline, Oracle ChatGPT, and automation pipelines.</p></article>
+          <article><h3>Monitoring</h3><p>Prometheus, Kibana, DevOps metrics, operational visibility, cloud resource reporting.</p></article>
+          <article><h3>Leadership</h3><p>Agile/Scrum, Scrum Master experience, mentoring engineers, code reviews, global collaboration.</p></article>
+        </div>
       </div>
     </section>
 
-    <section id="contact" class="section container contact-card">
-      <h2>Let’s Build Something Great</h2>
-      <p>Interested in Java, Oracle Cloud Infrastructure, AI, or technical leadership opportunities.</p>
-      <a class="btn btn-primary" href="mailto:junbeguir@example.com">Email Me</a>
+    <section id="projects" class="section container">
+      <div class="section-heading">
+        <p class="eyebrow">Featured Projects</p>
+        <h2>Selected work and portfolio ideas</h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card">
+          <h3>Cloud Automation Platform</h3>
+          <p>Cloud-native platform services supporting OCI automation, controllers, DB management, state services, and automated metrics reporting.</p>
+          <div class="tags"><span>Java</span><span>OCI</span><span>Microservices</span><span>DevOps</span></div>
+        </article>
+        <article class="project-card">
+          <h3>Customer Self-Service Platform</h3>
+          <p>Enterprise customer self-service platform using Java and Oracle ADF, including SOAP integrations and scalable backend services.</p>
+          <div class="tags"><span>Java</span><span>Oracle ADF</span><span>SOAP</span><span>Enterprise</span></div>
+        </article>
+        <article class="project-card">
+          <h3>AI Integration Toolkit</h3>
+          <p>Portfolio concept for integrating AI tools into developer workflows, code review, documentation, automation, and productivity pipelines.</p>
+          <div class="tags"><span>AI</span><span>Automation</span><span>Codex CLI</span><span>Cline</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="section section-soft">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Experience</p>
+          <h2>Professional timeline</h2>
+        </div>
+        <div class="timeline">
+          <article><span>Sep 2017 – Present</span><h3>Principal Application Engineer – Cloud SaaS Automation</h3><p>Oracle Philippines Corporation. Core contributor to cloud-native platform services within OCI; designed Java microservices for controllers, DB management, and state services.</p></article>
+          <article><span>Oct 2010 – Aug 2017</span><h3>Senior Application Engineer</h3><p>Oracle Philippines Corporation. Pioneer developer of Oracle Utilities Customer Self-Service platform; built Java/Oracle ADF applications and SOAP integrations.</p></article>
+          <article><span>Feb 2008 – Sep 2010</span><h3>Application Engineer</h3><p>Oracle Philippines Corporation. Delivered system enhancements, analytics features, BI systems, and KPI visualization.</p></article>
+          <article><span>Aug 2006 – Feb 2008</span><h3>Analyst Programmer</h3><p>MICHELIN Asia Pacific. Developed enterprise Java systems for manufacturing using WebSphere, Struts, and Oracle DB.</p></article>
+          <article><span>Jul 2001 – Jul 2006</span><h3>Analyst Programmer</h3><p>Banco Filipino Savings & Mortgage Bank. Developed banking applications, reporting systems, and shared phone banking validation libraries.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="cert-card">
+        <div>
+          <p class="eyebrow">Certification</p>
+          <h2>Oracle Cloud Infrastructure Certified Associate (2025)</h2>
+          <p>Cloud foundation supporting enterprise architecture, OCI automation, and cloud-native delivery.</p>
+        </div>
+        <a class="btn" href="#contact">Let's Connect</a>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-card">
+        <p class="eyebrow">Contact</p>
+        <h2>Open to Senior Java, Technical Lead, Cloud, and AI opportunities.</h2>
+        <p>Interested in cloud-native engineering, Java platform development, OCI automation, AI integration, and technical leadership roles.</p>
+        <div class="hero-actions center">
+          <a class="btn" href="mailto:junbeguir@gmail.com">junbeguir@gmail.com</a>
+          <a class="btn btn-outline" href="https://www.linkedin.com/in/junbeguir" target="_blank" rel="noopener">LinkedIn Profile</a>
+        </div>
+      </div>
     </section>
   </main>
 
-  <footer>
-    <p>© 2026 Jun Beguir. All rights reserved.</p>
+  <footer class="footer">
+    <p>© 2026 Arsenio Daza Beguir Jr. Built with HTML, CSS, and GitHub Pages.</p>
   </footer>
 </body>
 </html>
